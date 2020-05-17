@@ -4,13 +4,22 @@
   "scripts": {
     "build": "gridsome build",
     "develop": "gridsome develop",
-    "explore": "gridsome explore"
+    "explore": "gridsome explore",
+    "storybook": "start-storybook"
   },
   "dependencies": {
+    "autoprefixer": "^9.8.0",
     "gridsome": "^0.7.0",
-    "tailwindcss": "^1.4.6"
+    "tailwindcss": "^1.4.6",
+    "vue": "^2.6.11"
   },
   "devDependencies": {
-    "@fullhuman/postcss-purgecss": "^2.2.0"
+    "@babel/core": "^7.9.6",
+    "@fullhuman/postcss-purgecss": "^2.2.0",
+    "@storybook/vue": "^5.3.18",
+    "babel-loader": "^8.1.0",
+    "babel-preset-vue": "^2.0.2",
+    "vue-loader": "^15.9.2",
+    "vue-template-compiler": "^2.6.11"
   }
 }
